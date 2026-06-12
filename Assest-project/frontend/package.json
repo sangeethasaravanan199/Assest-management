@@ -17,6 +17,7 @@
     "@mui/x-data-grid": "^9.0.2",
     "@mui/x-data-grid-pro": "^9.0.3",
     "axios": "^1.15.2",
+    "backend": "file:../backend",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "react-google-recaptcha": "^3.1.0",
