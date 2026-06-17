@@ -41,6 +41,9 @@ function buildPoolConfig() {
     password: String(process.env.DB_PASSWORD),
   };
 }
+console.log("DATABASE_URL exists:", !!process.env.DATABASE_URL);
+console.log("DATABASE_URL value:", process.env.DATABASE_URL?.substring(0, 30));
+console.log("DB_HOST:", process.env.DB_HOST);
 
 const pool = new Pool(buildPoolConfig());
 
